@@ -512,22 +512,7 @@ p span.green-letter {
     }
 
     .skills-picture-container {
-        flex-direction: row;
-        flex-wrap: nowrap;
-
-    }
-
-    .icon {
-        font-size: 7vw;
-    }
-
-    .skills-row {
-        margin: 0 0 40px 0;
-    }
-
-    .photo {
-        width: 7vw;
-        height: auto;
+        display: none;
     }
 
     .skills-text, .contact-subheading {
@@ -540,6 +525,7 @@ p span.green-letter {
 
     .contact-subheading {
         font-size: 120%;
+        text-align: center;
     }
 
     .projects-container {
