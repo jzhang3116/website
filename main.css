@@ -561,6 +561,15 @@ p span.green-letter {
 }
 
 @media only screen and (max-width: 750px) {
+    .nav-container {
+        flex-wrap: nowrap;
+    }
+
+    .logo {
+        width: 70px;
+        height: auto;
+    }
+
     .projects-container {
         height: 200vh;
         justify-content: space-evenly;
